@@ -17,7 +17,7 @@ aimed to optimize the process of vector dot product calculation
 ### Time cost:
 We test this brutal force algorithm with two vectors each has 200 million elements and output its' calculation time.
 
-![image-20201011203823050](\pics\image-20201011203823050.png)
+![image-20201011203823050](./pics/image-20201011203823050.png)
 
 We can see that the calculation of dot product takes 1318ms, which has a lot of space to do our optimization.
 
@@ -48,7 +48,7 @@ float block(const float *f1, const float *f2, int i) {
 ### Time cost:
 We test this block vector algorithm with two vectors each has 200 million elements and output its' calculation time.
 
-![image-20201011210831497](\pics\image-20201011210831497.png)
+![image-20201011210831497](./pics/image-20201011210831497.png)
 
 We can see from the screenshot that after this divide step, the time cost is reduced by half.
 
