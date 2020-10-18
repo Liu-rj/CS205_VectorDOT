@@ -1,6 +1,10 @@
 # Vector_DotProduct
 
+## If you can't see the pics, you can download the PDF version in this repository.
+(图片很可能显示不出来，并且markdown排版的很多效果会被吞，建议下载仓库中的pdf文件进行查看！)
+
 ***Aimed to optimize the process of vector dot product calculation***
+
 <font color=red size=3><b>Each test of time cost is under the same pair of vetors with length 200 million</b></font>
 
 ## Some Basic features
